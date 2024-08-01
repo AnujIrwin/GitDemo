@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-26T12:58:15 IST" name="Suite" finished-at="2024-07-26T12:58:34 IST" duration-ms="18079">
+    <groups>
+    </groups>
+    <test started-at="2024-07-26T12:58:15 IST" name="Error Validations Test" finished-at="2024-07-26T12:58:25 IST" duration-ms="9653">
+      <class name="SeleniumFramework.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.ErrorValidationsTest@26f3d90c]" started-at="2024-07-26T12:58:16 IST" name="launchApplication" finished-at="2024-07-26T12:58:19 IST" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:SeleniumFramework.tests.ErrorValidationsTest@26f3d90c]" started-at="2024-07-26T12:58:19 IST" name="loginErrorValidation" finished-at="2024-07-26T12:58:19 IST" duration-ms="391" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at SeleniumFramework.tests.ErrorValidationsTest.loginErrorValidation(ErrorValidationsTest.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.tests.ErrorValidationsTest@26f3d90c]" started-at="2024-07-26T12:58:19 IST" name="teardown" finished-at="2024-07-26T12:58:19 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.ErrorValidationsTest@26f3d90c]" started-at="2024-07-26T12:58:19 IST" name="launchApplication" finished-at="2024-07-26T12:58:20 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyProductErrorValidation()[pri:0, instance:SeleniumFramework.tests.ErrorValidationsTest@26f3d90c]" started-at="2024-07-26T12:58:20 IST" name="verifyProductErrorValidation" finished-at="2024-07-26T12:58:25 IST" duration-ms="4812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductErrorValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.tests.ErrorValidationsTest@26f3d90c]" started-at="2024-07-26T12:58:25 IST" name="teardown" finished-at="2024-07-26T12:58:25 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumFramework.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-07-26T12:58:15 IST" name="Updating Stand Alone Test" finished-at="2024-07-26T12:58:34 IST" duration-ms="18079">
+      <class name="SeleniumFramework.tests.UpdatingStandAloneTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.UpdatingStandAloneTest@443dbe42]" started-at="2024-07-26T12:58:16 IST" name="launchApplication" finished-at="2024-07-26T12:58:18 IST" duration-ms="2867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder()[pri:0, instance:SeleniumFramework.tests.UpdatingStandAloneTest@443dbe42]" started-at="2024-07-26T12:58:18 IST" name="submitOrder" finished-at="2024-07-26T12:58:32 IST" duration-ms="13169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.tests.UpdatingStandAloneTest@443dbe42]" started-at="2024-07-26T12:58:32 IST" name="teardown" finished-at="2024-07-26T12:58:32 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.UpdatingStandAloneTest@443dbe42]" started-at="2024-07-26T12:58:32 IST" name="launchApplication" finished-at="2024-07-26T12:58:33 IST" duration-ms="1119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="verifyProductonOrderpage()[pri:0, instance:SeleniumFramework.tests.UpdatingStandAloneTest@443dbe42]" started-at="2024-07-26T12:58:33 IST" name="verifyProductonOrderpage" finished-at="2024-07-26T12:58:33 IST" depends-on-methods="SeleniumFramework.tests.UpdatingStandAloneTest.submitOrder" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductonOrderpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:SeleniumFramework.tests.UpdatingStandAloneTest@443dbe42]" started-at="2024-07-26T12:58:33 IST" name="teardown" finished-at="2024-07-26T12:58:34 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumFramework.tests.UpdatingStandAloneTest -->
+    </test> <!-- Updating Stand Alone Test -->
+  </suite> <!-- Suite -->
+</testng-results>
